@@ -37,6 +37,8 @@
 
 # 코드 상세 
 
+## 데이터셋 전처리 
+
 로고 이미지 프로세스를 통해서 디자인 요소와 기업의 성격을 매칭합니다. 
 
 vscode 환경에서 가상환경을 만들어 코드를 동작하는 것을 추천합니다. 
@@ -49,3 +51,11 @@ python main.py
 ```
 
 main.py에서 실행할 이미지 폴더를 수정하는 방식으로 실행 가능합니다. 
+
+## stable-diffusion finetutning 
+
+이미지 생성을 위한 모델 파인튜닝이 필요합니다. 
+
+이 경우 아래의 diffusers github에서 pretrained 모델을 파인튜닝할 수 있습니다. 
+
+https://github.com/huggingface/diffusers
